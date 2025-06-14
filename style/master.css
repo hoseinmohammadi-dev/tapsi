@@ -20,7 +20,7 @@
 
 @layer components {
     .btnPrimary {
-        @apply bg-black text-white text-xl rounded-4xl py-2 px-5
+        @apply bg-black text-white text-xl rounded-4xl py-2 px-5 hover:opacity-90
     }
     .btnsecondery{
         @apply border-2 text-black border-black rounded-4xl py-2 px-5

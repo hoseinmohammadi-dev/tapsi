@@ -16,6 +16,9 @@
     .bt {
         @apply border border-blue-800
     }
+    .fc{
+        @apply flex justify-center items-center
+    }
 }
 
 @layer components {

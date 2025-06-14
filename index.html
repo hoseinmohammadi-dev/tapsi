@@ -12,7 +12,7 @@
 <body>
     <div class="2xl:container mx-auto">
         <!-- //////////////////////start header/////////////////////////// -->
-        <header>
+        <header class="fixed top-0 left-0 z-[1000000] w-full">
             <div class="w-full h-[100px] flex justify-between px-[5%] md:px-[2%] bg-white">
 
                 <div class="w-1/2 flex justify-start items-center md:w-[20%] lg:w-[15%]">
@@ -41,7 +41,7 @@
             <article class="w-full h-[60px] headerPic "></article>
         </header>
         <!-- start main -->
-        <main>
+        <main class="mt-[160px]">
             <section class="*:w-full  bg-gray-100 relative *:md:w-1/2 flex flex-wrap mt-5">
                 <!-- title -->
                 <div class="*:w-full h-[200px]  flex flex-wrap py-10 md:pt-1.5 text-center  text-4xl font-bold md:h-[150px] md:mt-10 lg:mt-25">
@@ -58,6 +58,49 @@
                     <a class="btnsecondery" href="">نسخه وب اپلیکیشن (PWA)</a>
                 </div>
             </section>
+
+            <!-- services section  -->
+             <section class="w-full py-10 px-[5%] h-[90vh] ">
+                <div class=" w-full ">
+                    <h2 class="text-xl md:text-3xl font-semibold pb-10 ">سرویس های تپسی</h2>
+                    <div class="flex w-full *:opacity-50 *:hover:opacity-100 *:cursor-pointer  gap-8 overflow-x-scroll  md:overflow-x-hidden md:gap-[2%] md:w-full **:text-center  justify-start md:justify-center  *:flex-shrink-0 *:w-1/4 md:*:w-[15%]  ">
+                        <figure>
+                            <img src="/img/cc-classic.png" alt="">
+                            <figcaption>کلاسیک</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/cc-delivery.png" alt="">
+                            <figcaption>ارسال بسته</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/cc-intercity.png" alt="">
+                            <figcaption>بین شهری</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/cc-plus.png" alt="">
+                            <figcaption>پلاس</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/cc-tel.png" alt="">
+                            <figcaption>تلفنی</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="img/cc-wait-and-share.png" alt="">
+                            <figcaption>باهمسفر</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="flex flex-wrap w-full py-10 justify-center items-center ">
+                    <div class="w-full md:w-1/2 p-10  ">
+                        <h3 class="text-2xl md:text-3xl pb-4">تپسی کلاسیک</h3>
+                        <p class="text-lg text-gray-500">با سرویس تپسی کلاسیک، سریع، آسان و به‌صرفه به مقصد برسید. دراین سرویس می‌توانید به دو یا چند مقصد سفر کنید.</p>
+                    </div>
+                    <figure class="w-full md:w-1/2 order-first md:order-none p-10 ">
+                        <img class="" src="img/illus-classic.png" alt="">
+                    </figure>
+                </div>
+             </section>
+            <!-- services section end -->
         </main>
         <footer></footer>
     </div>

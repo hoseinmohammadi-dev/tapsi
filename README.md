@@ -7,6 +7,15 @@ This project is a group collaboration aimed at practicing responsive web design 
 
 ---
 
+## 🔗 Live Demo
+
+You can check out the live version of the project here:  
+👉 [Click to View Demo](https://hoseinmohammadi-dev.github.io/tapsi/)
+
+
+
+---
+
 ## 👥 Group Members
 
 - 👩‍💻 Setare Homadian  

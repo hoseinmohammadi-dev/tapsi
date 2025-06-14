@@ -19,11 +19,11 @@
                     <img class="w-[100px]" src="img/tapsi-ir/svgexport-1.svg" alt="logo">
                 </div>
                 <!-- ///////////////////// header icon ///////////////// -->
-                <div class="w-1/2 bg-blue-700 flex items-center justify-end md:hidden">
+                <div class="w-1/2 flex items-center justify-end md:hidden">
                     <a href="#"><i class="icon-menu text-3xl"></i></a>
                 </div>
                 <!-- ///////////////////////////ul li///////////////// -->
-                 <div class="w-[80%] hidden md:flex lg:w-[60%]">
+                <div class="w-[80%] hidden md:flex lg:w-[60%]">
                     <ul class="flex justify-start items-center w-full *:px-2.5 *:hover:text-amber-500">
                         <li><a href="#">ثبت نام راننده خودرو</a></li>
                         <li><a href="#">ثبت نام راننده موتور</a></li>
@@ -31,21 +31,37 @@
                         <li><a href="#">پشتیبانی</a></li>
                         <li><a href="#">اپلیکیشن رانندگان</a></li>
                     </ul>
-                 </div>
-                 <!-- /////////////////////button/////////////// -->
-                 <div class="hidden lg:flex items-center justify-center w-[15%]">
+                </div>
+                <!-- /////////////////////button/////////////// -->
+                <div class="hidden lg:flex items-center justify-center w-[15%]">
                     <a href="#" class=" py-2 px-5 rounded-4xl bg text-white hover:opacity-85">دانلود تپسی</a>
-                 </div>
+                </div>
             </div>
+            <!-- AD -->
+            <article class="w-full h-[60px] headerPic "></article>
         </header>
-
-
-
-
-
-        <main></main>
+        <!-- start main -->
+        <main>
+            <section class="*:w-full flex flex-wrap">
+                <!-- title -->
+                <div class="bt *:w-full  flex flex-wrap py-10 text-center text-4xl font-bold">
+                    <span class="pb-2.5">با سوپر اپلیکیشن تپسی،</span>
+                    <span>زندگی به فرمان توست</span>
+                </div>
+                <!-- img -->
+                <figure class="bt">
+                    <img class="w-[90%] mx-auto rounded-3xl" src="img/hero.png" alt="">
+                </figure>
+                <!-- btn -->
+                <div class="bt flex flex-wrap justify-center text-center py-10 *:w-[75%] ">
+                    <a class="btnPrimary my-4" href="">دانلود اپلیکیشن مسافر</a>
+                    <a class="btnsecondery" href="">نسخه وب اپلیکیشن (PWA)</a>
+                </div>
+            </section>
+        </main>
         <footer></footer>
     </div>
 </body>
 
 </html>
+<!-- npx @tailwindcss/cli -i ./tapsi/style/master.css -o ./tapsi/style/output.css --watch -->
